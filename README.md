@@ -31,7 +31,7 @@ Ahora se importan los datos al proyecto de Jupyter Notebook usando la librería 
 ![image](https://user-images.githubusercontent.com/74307558/194596695-234a2fba-94b9-4b74-8e2a-31b27b4b5d0a.png)
 _Figura1. Nombre de Audios_
 
-Para la ilustración de las gráficas se utiliza la librería Matplotlib y la de Plotly. Se empezó con la creación de los espectrogramas cada uno con su vector correspondiente generando 3 gráficas distintas Figura 5. Sin embargo, para apreciar mejor los resultados se decidió crear otra función en la cual se ilustren los 3 resultados en una misma gráfica _Figura2_.
+Para la ilustración de las gráficas se utiliza la librería Matplotlib y la de Plotly. Se empezó con la creación de los espectrogramas cada uno con su vector correspondiente generando 3 gráficas distintas _Figura 2._ Sin embargo, para apreciar mejor los resultados se decidió crear otra función en la cual se ilustren los 3 resultados en una misma gráfica _Figura3_.
 
 ![image](https://user-images.githubusercontent.com/74307558/194596762-b47d0c32-b7fa-4a98-a48b-9ca5c13c09ff.png)
 _Figura2. Proceso realizado para generar espectrogramas con su vector correspondiente_
@@ -51,5 +51,5 @@ _Figura5. Proceso de creación de gráfico FFT_
 
 
 ### Recomendaciones
-- Descargar el proyecto, debido a que se usaron varios gráficos provocando que GitHub presente problemas en ilustrarlos.
+- Descargar el proyecto, debido a que se usaron muchos gráficos además de gráficos iteractivos provocando que GitHub presente problemas en ilustrarlos.
 - Se sugiere aumentar el número de muestras del dataset con diversos ruidos de motores y ruidos de fondo, para tener una mayor validez al ser entrenados.
