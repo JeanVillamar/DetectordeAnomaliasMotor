@@ -53,3 +53,10 @@ _Figura5. Proceso de creación de gráfico FFT_
 ### Recomendaciones
 - Descargar el proyecto, debido a que se usaron muchos gráficos además de gráficos iteractivos provocando que GitHub presente problemas en ilustrarlos.
 - Se sugiere aumentar el número de muestras del dataset con diversos ruidos de motores y ruidos de fondo, para tener una mayor validez al ser entrenados.
+- Tomar en cuenta las características del motor y su relación con la frecuencia, debido a que, si las revoluciones de un motor varían con otro, entonces su frecuencia lo hará también y se alterarán los resultados.
+- Se recomienda utilizar sensores de audio, porque realizar las grabaciones desde un celular o laptop, disminuye la eficiencia de la medición de datos.
+- Para evitar variaciones en la frecuencia de datos, es recomendable tomar los datos siempre desde la misma distancia con el motor.
+- evitar las obstrucciones entre el sensor de audio y el motor, utilizando el sensor en un lugar alejado de soportes como una mesa o escritorio, de no ser así, variarán las frecuencias receptadas por el sensor.
+
+
+Para avances del estudio, respecto a la detección tempranas de anomalías en los motores industriales con TinyML, tomar en cuenta los diferentes tipos de sensores como el de temperatura, presión y vibración. Estos son frecuentemente usados para la detección de fallas en motores eléctricos, permitiendo añadir diversas formas de recolección de datos y resultados para su estudio. Además, permite explorar los diversos tipos de representación de datos de un dataset mediante gráficos para representar los datos de manera más comprensible y resumida.
