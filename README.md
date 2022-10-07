@@ -13,9 +13,9 @@ Mediante el análisis de los espectrogramas se pueden obtener datos como la frec
 
 Para la implementación de gráficos se usó el lenguaje de programación Python usando un archivo IPYNB que es un documento de cuaderno utilizado por Jupyter Notebook, que incluye las entradas y salidas de imágenes o audios, además se usaron las librerías mostradas en la Tabla 1. Librerías usadas para la elaboración de las gráficas con su respecta funcionalidad.
 
-|                   Librerías usadas          |
-| :-----------------------------------------  |
-| Librería                                    | Uso   |
+|                Librerías usadas             |                     |
+| :----------------------------------------:  | :------------------ | 
+| Librería                                    | Uso                 |
 | Numpy                                       |	Manejo de Arreglo   |
 | Matplotlib                                  | realizar gráficos   |
 | wavfile                                     | leer y grabar audios|
